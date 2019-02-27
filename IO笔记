@@ -1,0 +1,13 @@
+
+> 用[ StackEdit ]（https://stackedit.io/）编写。
+>int read(byte[] a):一次读取一个字节数组
+>write(byte[] a):一次写出一个字节数组
+>available()获取读的文件所有的字节个数
+>弊端：可能会造成字节溢出
+> FileInputStream fis = new FileInputStream（xxx.mp3）; 
+> FlieOutputStream fos = new FlieOutputStream（copy.mp3）;
+>byte[] arr = new byte[fis.available];  //根据文件大小生成一个字节数组
+>fis.read(arr);  //将文件上的所有字节读取到数组中
+>fos.write(arr);  //将字节数组中的所有字节数据一次性写到文件上
+> fis.close;
+> fos.close;
