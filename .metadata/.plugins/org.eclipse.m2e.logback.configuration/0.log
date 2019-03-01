@@ -407,3 +407,5 @@
 2019-02-28 21:07:24,296 [Worker-303: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maven.demo/src/main/resources
 2019-02-28 21:07:24,296 [Worker-303: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maven.demo/src/test/java
 2019-02-28 21:07:24,497 [Worker-303: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 427 sec
+2019-02-28 21:11:26,158 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-02-28 21:13:46,584 [Worker-10: Rebuilding Indexes] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated local repository index
