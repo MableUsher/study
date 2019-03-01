@@ -1,0 +1,23 @@
+package demoddzc;
+import java.util.Scanner;
+public class SelectCar extends Car {
+	int x;                  //存放输入参数
+	String xModel;          //存放车型信息
+	String xBrand;          //存放品牌信息
+	String xType;           //存放大小信息
+	public int xLadenT = 0; //存放载货量（吨）
+	public int xLadenR = 0; //存放载客量（人）
+	String xColor;          //存放颜色信息
+	
+	@Override
+	public void selectCar() {
+		// TODO Auto-generated method stub
+		System.out.println("请选择您需要的车型");
+		for(int i=0;i<=model.length;i++) {
+			System.out.println(i+"、"+model[i]+" ");
+		}
+	}
+
+
+
+}

@@ -1,0 +1,10 @@
+package practiseIO;
+
+public class Demo1_FlieInputStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

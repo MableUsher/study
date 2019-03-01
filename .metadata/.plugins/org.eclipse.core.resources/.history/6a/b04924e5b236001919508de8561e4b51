@@ -1,0 +1,17 @@
+package demoddzc;
+
+public class SelectCar extends Car {
+
+	@Override
+	public void selectCar() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void sumPrice() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

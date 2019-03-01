@@ -1,0 +1,19 @@
+package practise2;
+
+public class Circle extends Shape {
+
+	@Override
+	public double l(double a, double b) {
+		// TODO Auto-generated method stub
+		double c=(a+b)*2;
+		return c;
+	}
+
+	@Override
+	public double s(double a, double b) {
+		// TODO Auto-generated method stub
+		double d = a*b;
+		return d;
+	}
+
+}

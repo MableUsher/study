@@ -1,0 +1,20 @@
+package practiseIO;
+
+import java.util.Scanner;
+
+
+public class Demo5_CopyFile {
+	
+	public static File getFile() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入一个文件的路径：");
+		while(true) {
+			String line = new File(line);
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

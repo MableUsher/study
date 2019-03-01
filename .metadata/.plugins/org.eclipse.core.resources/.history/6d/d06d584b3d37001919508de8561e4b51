@@ -1,0 +1,12 @@
+package practise2;
+
+public class Chain {
+public void fast() throws FastException{
+	throw new FastException("Ì«¿ìÁË");
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
