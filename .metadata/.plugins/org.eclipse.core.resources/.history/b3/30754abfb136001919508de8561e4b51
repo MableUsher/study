@@ -1,8 +1,0 @@
-package demoddzc;
-
-public abstract class Car {
- String[] model = {"货车","客车","皮卡"};
- String[] brand = {"奔驰","宝马","长城"};
- String[] type = {"小","中","大"};
- String[] color = {"曜夜黑","迈阿密蓝","珍珠白","法拉利红"};
-}
