@@ -3,7 +3,7 @@
 *	
 		int read(byte[] a):							//一次读取一个字节数组
 		write(byte[] a):							//一次写出一个字节数组
-		available()获取读的文件所有的字节个数
+		available()									//获取读的文件所有的字节个数
 * 弊端：可能会造成字节溢出
 *	
 		FileInputStream fis = new FileInputStream（xxx.mp3）; 
@@ -14,23 +14,22 @@
 		fis.close;
 		fos.close;
 ### 定义小数组的标准格式 ###
-*
+* 
 		byte[] arr = new byte[1024*8];
 		int len;
 		while( (len = fis.read(arr)) != -1){
 		fos.write(arr,0,len);          						 //写入从0到len个字节数
 		}
 ### 缓冲 ###
- 1.缓冲思想 
+1. 缓冲思想 
 	* 字节流一次读取一个数组的速度明显比一次读写一个字节的速度快得多，
-	* 是因为加入了数组这样的缓冲区效果，java在本身设计的时候；
-	* 也考虑到了这样的设计思想，所以提供了字节缓冲区流
- 2.BufferedInputStream 
+	* 是因为加入了数组这样的缓冲区效果，java在本身设计的时候；也考虑到了这样的设计思想，所以提供了字节缓冲区流
+2. BufferedInputStream 
 	* 其中内置了一个缓冲区（数组）
 	* 从BufferedInputStream中读取一个字节时，会一次性从文件中读8192个，存在缓冲区中，返回给程序一个
 	* 程序再次读取时，就不用找文件了，直接从缓冲区中获取
 	* 直到缓冲区中所有的都被使用过，才重新从文件中读取8192个
- 3.BufferedOutputStream
+3. BufferedOutputStream
 	* 也内置了一个缓冲区（数组）
 	* 程序向流中写出字节时，不会直接写到文件，先写到缓冲区中
 	* 直到缓冲区写满，才会把缓冲区中的数据一次性写到文件里
