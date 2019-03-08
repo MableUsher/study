@@ -1,3 +1,4 @@
+## MySQL笔记
 1. 修改MySQL提示符
 2. MySQL语句的规范
 	* 关键字和函数名称全部大写
@@ -114,3 +115,50 @@
 	* 	
 	SELECTgoods_id,goods_name,b.cate_name,c.brand_name,goods_priceFROM productsAS a <br/> INNER JOIN products_cate AS b ON a.goods_cate = b.cate_id<br/>
 	INNER JOIN products_brand AS c ON a.brand_name = c.brand_id;
+44. 数据表的自身连接：只要在表前加上p/s.就可以了。又因为种类里有很多不同的类型，我们想知道各个种类有多少个类型。此时需要计数：
+	* 
+	SELECT s.type_id,s.type_name,p.type_name FROM tdb_goods_types AS s LEFT JOIN tdb_goods_types AS p ON s.parent_id=p.type_id；
+45. 字符函数
+	* countcat():字符连接；<br/>select concat('A','-','B') from db
+	* countcat_ws():使用指定的分隔符进行字符连接;<br/>select concat_ws('|','A','B','C')
+	* format()：数字格式化，返回一个字符串；<br/>select format(12345.67,2):小数点后保留两位
+	* upper():字符大写；
+46. 比较运算符与函数：
+	* [NOT] BETWEEN……AND……[不]在范围之内<br/>SELECT 15 BETWEEN 1 AND 22;
+	* [NOT]IN():[不]在列出值范围内
+	* IS[NOT] NULL:[不]为空
+47. 自定义函数
+	* 创建不带参数的自定义函数：<br/>
+	create function f1() returns varchar(30) 
+	returns date_format(now(),'%Y年%m月%d日' %H点:%i分:%s秒)；
+	* 创建带参数的自定义函数：<br/>
+	CREATE FUNCTION f2(num1 SMALLINT UNSIGNED,num2 SMALLINT UNSIGNED)
+	RETURNS FLOAT(10,2) UNSIGNED//返回值类型
+	RETURN(num1+num2)/2;
+	SELECT f2();//报错
+	SELECT f2(10,15);//结果：12.5
+	* 创建一个具有复合结构函数体的自定义函数：<br/>
+	 mysql> create function adduser(firstname varchar(20),lastname varchar(20))<br/>
+	-> returns int unsigned<br/>
+	-> begin<br/>
+	-> insert name(firstname,lastname) values(firstname,lastname);<br/>
+	-> return last_insert_id();<br/>
+	-> end<br/>
+	-> //<br/>	
+48. 存储过程 
+	* 存储过程是sql语句和控制语句的预编译集合，以一个名称存储并作为一个单元处理
+	* 创建存储过程<br>
+	CREATE PROCEDURE 存储过程名 （[参数],[参数]...）<br>
+	例如：CREATE PROCEDURE sq1() SELECT VERSION();
+	调用存储过程<br>
+	CALL 存储过程名[(参数)]，...<br>
+	例如：CALL sp1();无参可以省略小括号。有参就不能省略
+	* 在存储过程的参数区：利用IN来修饰入参，利用OUT来修饰返回值，可以有多个
+49. 存储过程和自定义函数的区别
+50. 存储引擎
+	* 扩展<br>
+	Memory的存储限制是由内存的大小来决定。，CSV存储引擎不支持索引。BlackHole:黑洞引擎，写入的数据都会消失，一般用做数据复制的中继。
+	* 索引：<br>普通索引、唯一索引、全文索引、btree索引、hash索引……
+	* 最广泛：MyISAM/InnoDB<br>
+	MyISAM：适用于事务的处理不多的情况。<br>
+	InnoDB：适用于事务处理比较多，需要有外键支持的情况
