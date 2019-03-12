@@ -11,3 +11,4 @@
 10. MySQL结束 打Tag为1.0
 11. 使用IDEA 配置JavaWeb 简单实现servlet，接触反射
 12. 了解反射原理以及通过反射获取并使用类的各种成分
+13. 了解Hibernate框架
