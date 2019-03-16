@@ -13,5 +13,5 @@
 12. 了解反射原理以及通过反射获取并使用类的各种成分
 13. 了解Hibernate框架
 14. 开始学习spring，通过自行编写工厂类来理解BeanFactory的原理
-15. springIoc
+15. springIoc 打Tag为1.1
 
