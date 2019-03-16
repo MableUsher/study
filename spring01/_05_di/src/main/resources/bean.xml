@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="now" class="java.util.Date"></bean>
+    <!--构造函数注入-->
+    <bean id="accountService" class="com.mable.service.impl.AccountServiceImpl">
+        <constructor-arg name="name" value="Tom"></constructor-arg>
+        <constructor-arg name="age" value="18"></constructor-arg>
+        <constructor-arg name="birthday" ref="now"></constructor-arg>
+    </bean>
+
+    <!--set方法注入-->
+    <bean id="accountService2" class="com.mable.service.impl.AccountServiceImpl2">
+        <property name="name" value="Jerry"></property>
+        <property name="age" value="23"></property>
+        <property name="birthday" ref="now"></property>
+    </bean>
+    <!-- 复杂类型的注入-->
+    <bean id="accountService3" class="com.mable.service.impl.AccountServiceImpl3">
+        <property name="myStr">
+        <array>
+            <value>sss</value>
+            <value>ttt</value>
+            <value>rrr</value>
+        </array>
+    </property>
+        <property name="myList">
+            <list>
+                <value>lll</value>
+                <value>iii</value>
+                <value>sss</value>
+                <value>ttt</value>
+            </list>
+        </property>
+        <property name="mySet">
+            <set>
+                <value>sss</value>
+                <value>eee</value>
+                <value>ttt</value>
+            </set>
+        </property>
+        <property name="myMap">
+            <map>
+                <entry key="1" value="mmm"></entry>
+                <entry key="2" >
+                    <value>aaa</value>
+                </entry>
+            </map>
+        </property>
+        <property name="myProps">
+            <props>
+                <prop key="3">props</prop>
+                <prop key="4">props</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

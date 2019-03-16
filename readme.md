@@ -9,4 +9,9 @@
 8. 上传MySQL学习笔记，数据库代码待导出
 9. MySQL即将收尾
 10. MySQL结束 打Tag为1.0
+11. 使用IDEA 配置JavaWeb 简单实现servlet，接触反射
+12. 了解反射原理以及通过反射获取并使用类的各种成分
+13. 了解Hibernate框架
+14. 开始学习spring，通过自行编写工厂类来理解BeanFactory的原理
+15. springIoc
 
