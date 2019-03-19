@@ -14,4 +14,5 @@
 13. 了解Hibernate框架
 14. 开始学习spring，通过自行编写工厂类来理解BeanFactory的原理
 15. springIoc di打Tag为1.1
-16. spring注解
+16. spring注解即Junit整合
+17. ThreadLocal、动态代理
