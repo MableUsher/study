@@ -1,0 +1,38 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+ <!--   &lt;!&ndash;&ndash;&gt;
+    <context:component-scan base-package="com.mable"></context:component-scan>-->
+
+  <!--  &lt;!&ndash;配置springIoc，把Service对象配置进来&ndash;&gt;
+    <bean id="accountService" class="com.mable.service.impl.AccountServiceImpl"></bean>-->
+
+<!--    &lt;!&ndash;配置Logger类&ndash;&gt;
+    <bean id="logger" class="com.mable.utils.logger"></bean>-->
+
+<!--    &lt;!&ndash;配置AOP&ndash;&gt;
+    <aop:config>
+        &lt;!&ndash;配置切入点表达式，id属性用于指定表达式的唯一通知&ndash;&gt;
+        <aop:pointcut id="pt1" expression="execution(* com..mable.service.impl.*.*(..))"></aop:pointcut>
+        &lt;!&ndash;配置切面&ndash;&gt;
+        <aop:aspect id ="logAdvice" ref="logger">
+            &lt;!&ndash;配置前置通知&ndash;&gt;
+            <aop:before method="beforePrintLog" pointcut-ref="pt1"></aop:before>
+            &lt;!&ndash;配置后通知&ndash;&gt;
+            <aop:after-returning method="afterReturningPrintLog" pointcut-ref="pt1"></aop:after-returning>
+            &lt;!&ndash;配置异常通知&ndash;&gt;
+            <aop:after-throwing method="afterThorwingPrintLog" pointcut-ref="pt1"></aop:after-throwing>
+            &lt;!&ndash;配置最终通知&ndash;&gt;
+            <aop:after method="afterPrintLog" pointcut-ref="pt1" ></aop:after>
+            &lt;!&ndash;配置环绕通知&ndash;&gt;
+            <aop:around method="aroundPrintLog" pointcut-ref="pt1"></aop:around>
+        </aop:aspect>
+    </aop:config>-->
+    <!--配置spring开启注解配置AOP的支持-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+</beans>
