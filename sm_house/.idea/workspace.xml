@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="df49db8a-b20b-4e68-91b5-7843be40950f" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="df49db8a-b20b-4e68-91b5-7843be40950f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> dev
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -71,12 +78,25 @@
                 <element signature="e#823#824#0" expanded="true" />
                 <element signature="e#1234#1235#0" expanded="true" />
                 <element signature="e#1266#1267#0" expanded="true" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mable/test/testHouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
+>>>>>>> dev
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/resources/sm-config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -86,6 +106,14 @@
                 <element signature="e#1278#1291#0" expanded="true" />
                 <element signature="e#1344#1362#0" expanded="true" />
                 <element signature="e#1415#1433#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mable/dao/IHouseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> dev
               </folding>
             </state>
           </provider>
@@ -137,11 +165,18 @@
       <select />
     </treeState>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="954" />
     <option name="y" value="17" />
     <option name="width" value="974" />
     <option name="height" value="1100" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+>>>>>>> dev
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -151,6 +186,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+>>>>>>> dev
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,30 +246,72 @@
               <item name="sm_house" type="b2602c69:ProjectViewProjectNode" />
               <item name="sm_house" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mable" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sm_house" type="b2602c69:ProjectViewProjectNode" />
               <item name="sm_house" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_house" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_house" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm_house" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_house" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mable" type="462c0819:PsiDirectoryNode" />
+>>>>>>> dev
+            </path>
+            <path>
+              <item name="sm_house" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sm_house" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mable" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+>>>>>>> dev
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+>>>>>>> dev
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553699219075" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553700983984" />
+>>>>>>> dev
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -328,13 +409,20 @@
       <option name="presentableId" value="Default" />
       <updated>1553661403038</updated>
       <workItem from="1553661411585" duration="14265000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1553778711646" duration="38000" />
+>>>>>>> dev
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="testHouse_testUpdate - 2019.03.27 at 15h 19m 02s.xml">
       <configuration name="testHouse.testUpdate" configurationId="JUnit" />
     </history-entry>
+=======
+>>>>>>> dev
     <history-entry file="testHouse_testUpdate - 2019.03.27 at 15h 26m 03s.xml">
       <configuration name="testHouse.testUpdate" configurationId="JUnit" />
     </history-entry>
@@ -362,6 +450,7 @@
     <history-entry file="testHouse_testFindById - 2019.03.27 at 18h 11m 08s.xml">
       <configuration name="testHouse.testFindById" configurationId="JUnit" />
     </history-entry>
+<<<<<<< HEAD
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="14265000" />
@@ -387,10 +476,34 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.10086768" />
+=======
+    <history-entry file="testHouse_testFindById - 2019.03.27 at 23h 36m 52s.xml">
+      <configuration name="testHouse.testFindById" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14363000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26258206" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5390456" />
+>>>>>>> dev
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Maven" weight="0.32932165" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -400,12 +513,31 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+=======
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32932165" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+>>>>>>> dev
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mable/dao/houseImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -435,6 +567,11 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mable/dao/houseImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mable/dao/IHouse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mable/dao/HouseDao.java" />
+>>>>>>> dev
     <entry file="file://$PROJECT_DIR$/src/main/resources/MybatisConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -474,6 +611,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mable/dao/IHouseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -484,6 +622,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> dev
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -511,6 +651,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mable/test/testHouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -521,6 +662,26 @@
             <element signature="e#823#824#0" expanded="true" />
             <element signature="e#1234#1235#0" expanded="true" />
             <element signature="e#1266#1267#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mable/dao/IHouseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mable/test/testHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+>>>>>>> dev
           </folding>
         </state>
       </provider>
