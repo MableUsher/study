@@ -22,3 +22,4 @@
 21. spring与mybatis简单整合
 22. 上传springmvc笔记
 23. ssm简单整合
+24. ssm整合练习，进行基础巩固
